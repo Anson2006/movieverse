@@ -8,7 +8,7 @@ function App() {
   const [error, setError] = useState('');
 
   // Static demo API key to make it work instantly out-of-the-box
-  const API_KEY = '38b435ad'; 
+  const API_KEY = import.meta.env.VITE_OMDB_API_KEY;
 
   const searchMovies = async (e) => {
     e.preventDefault();
