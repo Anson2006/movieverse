@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import react from '@vitejs/react-plugin'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/movieverse/', // 👈 Must match your repository URL folder slug name exactly
+  base: '/movieverse/', 
 })
